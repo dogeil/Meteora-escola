@@ -1,0 +1,30 @@
+.texto-menor {
+  font-size: small;
+}
+.divs-facilidades {
+  width: 325px;
+}
+.div-novidades {
+  width: 325px;
+}
+
+@media (min-width:768px){
+ .div-novidades{
+   width: 696px;
+ }
+}
+.btn-purple {
+  background-color: #9353FF;
+  border-color: #9353FF; /* Match the background color for a seamless look */
+}
+
+/* Target the button by its existing class and apply the new style */
+.btn-primary.rounded-0 {
+  background-color: inherit;
+  border-color: inherit;
+  box-shadow: inherit;
+}
+.btn-primary.rounded-0.btn-purple {  /* Add btn-purple class here */
+  background-color: #9353FF;
+  border-color: #9353FF;
+}
