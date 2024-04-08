@@ -1,18 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+  font-family: "Inter", sans-serif;
+}
 .texto-menor {
   font-size: small;
 }
+
 .divs-facilidades {
   width: 325px;
 }
+
 .div-novidades {
   width: 325px;
 }
 
-@media (min-width:768px){
- .div-novidades{
-   width: 696px;
- }
+.divs-facilidades div * {
+  color: #DAFF01;
 }
+
+.divs-facilidades div .texto-menor {
+  color: white;
+}
+
+/* Media query for large screens */
+@media (min-width: 768px) {
+  .div-novidades {
+    width: 696px;
+  }
+}
+
 .btn-purple {
   background-color: #9353FF;
   border-color: #9353FF; /* Match the background color for a seamless look */
@@ -24,7 +41,8 @@
   border-color: inherit;
   box-shadow: inherit;
 }
-.btn-primary.rounded-0.btn-purple {  /* Add btn-purple class here */
+
+.btn-primary.rounded-0.btn-purple { /* Add btn-purple class here */
   background-color: #9353FF;
   border-color: #9353FF;
 }
