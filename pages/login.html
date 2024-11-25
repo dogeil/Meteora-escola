@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="icon" type="image/png" href="../../images/favicon/favicon-48x48.png" sizes="48x48" />
+    <link rel="icon" type="image/svg+xml" href="../../images/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="../../images/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../../images/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="NeedFarma" />
+    <link rel="manifest" href="../../images/favicon/site.webmanifest" />
+    <title>Login</title>
+</head>
+
+<body>
+    <main>
+        <div class="boxAcount">
+            <div class="contentAcount">
+                <div class="mainAcount">
+                    <div class="boxInputs" id="formLogin">
+                        <input type="email" name="email" id="email" placeholder="E-mail">
+                        <input id="password" type="password" name="password" placeholder="Senha">
+                        <span toggle="#password" class="bi bi-eye-fill field-icon toggle-password"></span>
+                        <ul style="margin-top: 5%;">
+                            <li>
+                                <input type="checkbox" name="remember" id="remember">
+                                <span>Lembrar de mim</span>
+                            </li>
+                            <li><a href="" id="rememberme">Esqueceu sua senha?</a></li>
+                        </ul>
+
+                        <button id="submitBtn" onclick="login()">Login</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="../scripts/login.js"></script>
+</body>
+
+</html>

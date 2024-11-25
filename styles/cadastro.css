@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    background-color: #9353FF;
+}
+
+.boxAcount {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentAcount {
+    width: 33%;
+    height: 80%;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: white;
+}
+
+.headerAcount {
+    width: 100%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerAcount img {
+    width: 100%;
+    height: 100%;
+    color: #111;
+}
+
+.mainAcount {
+    width: 100%;
+    height: 92%;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.boxInputs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    -ms-border-radius: 0px;
+    -o-border-radius: 0px;
+}
+
+.boxInputs input {
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+.boxInputs div{
+    width: 80%;
+}
+.boxInputs div input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+.field-icon {
+    float: right;
+    padding: 8px;
+    height: 8px;
+    margin-bottom: 8px;
+    margin-top: -60px;
+    margin-left: 70%;
+    position: relative;
+    z-index: 2;
+}
+
+.boxInputs select{
+    width: 80%;
+    padding: 8px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: none;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+}
+
+.boxInputs label {
+    font-size: calc(0.4rem + 0.5vw);
+    align-self: self-start;
+    margin-left: 70px;
+}
+
+.boxInputs button {
+    width: 50%;
+    padding: 8px;
+    background-color: #9353FF;
+    border-radius: 15px;
+    font-size: calc(0.5rem + 0.6vw);
+    font-weight: 500;
+    color: white;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.boxInputs button:hover {
+    scale: 1.03;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+@media screen and (max-width:1280px){
+
+    main {
+        width: 100vw;
+        height: 100vh;
+    }
+    
+    .boxImage {
+        display: none;
+    }
+    
+    .boxAcount {
+        width: 100%;
+        height: max-content;
+    }
+    
+    .headerAcount {
+        height: 15vh;
+    }
+    
+    .mainAcount {
+        height: 85vh;
+    }
+    
+}
+
+@media screen and (max-width:840px) {
+    .contentAcount{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+    }
+    .mainAcount{
+        height: 100vh;
+    }
+
+    .boxInputs input{
+        padding: 5px;
+    }
+
+    .boxInputs select{
+        padding: 5px;
+    }
+}
